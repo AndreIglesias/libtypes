@@ -6,7 +6,7 @@
 /*   By: ciglesia <ciglesia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/30 14:07:03 by ciglesia          #+#    #+#             */
-/*   Updated: 2021/07/02 18:58:44 by ciglesia         ###   ########.fr       */
+/*   Updated: 2021/07/03 12:22:19 by ciglesia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,7 +75,7 @@ __extension__ typedef long long int				t_intmax_t;
 __extension__ typedef unsigned long long int	t_uintmax_t;
 # endif
 
-typedef unsigned char byte;
+typedef unsigned char							t_byte;
 
 typedef struct s_trie
 {
