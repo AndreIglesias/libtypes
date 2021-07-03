@@ -6,7 +6,7 @@
 /*   By: ciglesia <ciglesia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/30 14:07:03 by ciglesia          #+#    #+#             */
-/*   Updated: 2021/07/03 12:22:19 by ciglesia         ###   ########.fr       */
+/*   Updated: 2021/07/03 20:11:13 by ciglesia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,6 +76,18 @@ __extension__ typedef unsigned long long int	t_uintmax_t;
 # endif
 
 typedef unsigned char							t_byte;
+
+/*
+**	Types for `void *' pointers.
+*/
+
+# if __WORDSIZE == 64
+typedef long int								t_intptr;
+typedef unsigned long int						t_uintptr;
+# else
+typedef int										t_intptr;
+typedef unsigned int							t_uintptr;
+# endif
 
 typedef struct s_trie
 {
