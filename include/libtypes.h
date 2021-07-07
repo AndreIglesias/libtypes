@@ -6,7 +6,7 @@
 /*   By: ciglesia <ciglesia@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/30 14:07:03 by ciglesia          #+#    #+#             */
-/*   Updated: 2021/07/03 20:11:13 by ciglesia         ###   ########.fr       */
+/*   Updated: 2021/07/05 13:42:25 by ciglesia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,6 +88,12 @@ typedef unsigned long int						t_uintptr;
 typedef int										t_intptr;
 typedef unsigned int							t_uintptr;
 # endif
+
+typedef struct s_sizes
+{
+	size_t	s1;
+	size_t	s2;
+}	t_sizes;
 
 typedef struct s_trie
 {
